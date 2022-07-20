@@ -166,7 +166,9 @@ button {
     width: 60%;
     height: 40%;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 4%;
+    justify-content: center;
     padding: 4em 0;
 
 }
@@ -182,6 +184,9 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-link{
+    padding-bottom: 10%;
+}
 .footer-link a {
     text-decoration: none;
     color: #B9B9B9;
@@ -227,7 +232,6 @@ hr {
     }
     .sidebar-div{
         border: 1px solid #E8E8E8;
-
     }
     .container-div-transfer{
         grid-template-columns: repeat(2, 1fr);
@@ -256,6 +260,25 @@ hr {
     }
     h3{
         text-align: center;
+    }
+    .section-container{
+        grid-template-columns: 1fr ;
+    }
+    #sidebar-container{
+        background-color: white;
+
+    }
+    .sidebar-div{
+        border: 1px solid #E8E8E8;
+    }
+    .container-div-transfer{
+        grid-template-columns: 1fr;
+
+    }
+    .footer-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
