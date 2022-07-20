@@ -27,7 +27,7 @@ p {
 .section-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    margin: 5% 8%;
+    margin: 10% 8%;
     border-radius: 2em;
     gap: 2em;
 }
@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.sidebar-div  {
+.sidebar-div {
     background-color: white;
     color: black;
     width: 80%;
@@ -120,7 +120,8 @@ p {
     font-weight: 700;
 
 }
-#blog{
+
+#blog {
     background-color: #DD0000;
 }
 
@@ -149,7 +150,8 @@ button {
     align-items: center;
     grid-template-columns: 1fr;
 }
-#footer-goal{
+
+#footer-goal {
     color: white;
     display: grid;
     justify-content: center;
@@ -187,17 +189,28 @@ hr {
     font-weight: 600;
 }
 
-.container-div-schedule{
+.container-div-schedule {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2em;
 }
-.match-schedule{
+
+
+.match-schedule {
+    border: 1px solid #E8E8E8;
     display: flex;
     flex-direction: column;
+    padding: 15% 10% 0%;
+    border-radius: 1em;
 }
-.match-schedule-flag{
+.match-schedule-flag {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 
+}
+#match-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
