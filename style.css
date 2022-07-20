@@ -186,3 +186,18 @@ hr {
     font-size: 1.1em;
     font-weight: 600;
 }
+
+.container-div-schedule{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+.match-schedule{
+    display: flex;
+    flex-direction: column;
+}
+.match-schedule-flag{
+    display: flex;
+    justify-content:space-between;
+
+}
