@@ -124,6 +124,9 @@ p {
 #blog {
     background-color: #DD0000;
 }
+#upcoming-match{
+    background-color: #DD0000;
+}
 
 button {
     background-color: white;
@@ -218,6 +221,11 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.fa-brands{
+    font-size: 3em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 /* The part Thats will view in tablet mode*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
