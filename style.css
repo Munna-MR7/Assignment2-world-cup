@@ -214,3 +214,48 @@ hr {
     align-items: center;
     flex-direction: column;
 }
+/* The part Thats will view in tablet mode*/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .section-container{
+        grid-template-columns: 1fr ;
+    }
+    #sidebar-container{
+        flex-direction: row;
+        background-color: white;
+        column-gap: 10px;
+
+    }
+    .sidebar-div{
+        border: 1px solid #E8E8E8;
+
+    }
+    .container-div-transfer{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .footer-div{
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+    }
+}
+/* The part Thats will view in mobile mode*/
+@media screen and (max-width: 576px) {
+    .section-container-banner{
+        grid-template-columns: 1fr;
+        
+    }
+    .div-half-width{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    
+}
