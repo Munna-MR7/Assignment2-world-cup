@@ -20,7 +20,7 @@ p {
     line-height: 26px;
     padding-bottom: 50px;
 }
-
+/* there has two div in banner section. these two contain this section-container banner*/
 .section-container-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -49,7 +49,7 @@ p {
     bottom: 0;
     left: 0;
 }
-
+/* The style properties for watch live button*/
 .link-button {
     text-decoration: none;
     padding: .8em 1.6em;
@@ -95,6 +95,7 @@ p {
     border-radius: .2em;
 }
 
+/* the side-bar-container div contain 3 div, each of div contain a button named upcoming match, blog,all group.*/
 #sidebar-container {
     background-color: black;
     border-radius: 1em;
@@ -153,7 +154,7 @@ button {
 .fa-regular {
     padding-right: 10px;
 }
-
+/* initially footer-section class contain two div, footer-goal and footer button*/
 .footer-section {
     padding: 3em 0;
     background-color: #161616;
